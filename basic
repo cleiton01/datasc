@@ -13,4 +13,20 @@ TP /[(TP+FN)/N]
 p(pred=1, desease=1)/p(pred=1)
 p(pred=1 | desease=1)
 
+Teste de χ2 (qui-quadrado)
+
+
+            Clicl | no Click  | Total de Click
+AD-A        | 36  | 14        | 50
+AD-B        | 30  | 25        | 55
+AD-A + AD-b | 66  | 39        | 105
+
+I = (AD-A, Click)
+Observed(I) = 36 
+Expected(I) = ( total de click de AD-A *  (click de AD-A + AD-B / Total de AD-A + AD-b) )
+Expected(I) = 50 * ( 66/105 ) = 50 * 0.628 = 31.429
+
+
+
+
 
