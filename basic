@@ -1,0 +1,16 @@
+
+
+TP = true positive
+TN = treu negative
+FP = false positive
+FN = false negative
+N = 
+
+[TP/N] /[[(TP+FN)/N]
+precision 
+TP /[(TP+FN)/N]
+[TP/N] /[(TP+FN)/N]
+p(pred=1, desease=1)/p(pred=1)
+p(pred=1 | desease=1)
+
+
